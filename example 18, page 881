@@ -1,0 +1,16 @@
+Assignment 7, page 881 example 18
+
+Pseudo code for sorting algorithm:
+
+Largest = largest array index 
+
+For (all other index values) {
+	If (nums[index] > nums[largest])
+  {
+	Largest = index
+  }
+}
+
+This modified version will not be faster than the standard version; it will take the same amount of time…
+
+This modified version will also make roughly N passes over N elements (same as the standard version).  So, its complexity is O(N^2)
